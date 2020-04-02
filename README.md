@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# **WINDOWS STORE FIXER**
 
-You can use the [editor on GitHub](https://github.com/AlexRabbit/Windows-Store-Fixer/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+![Windows Store Reinstaller](https://i.imgur.com/B5NKPbq.png?1)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+----
+We all know that Windows employees make terrible software and constantly are screwing up the Windows OS with bizarre and unfixable errors.
 
-### Markdown
+With that say, if you have a problem with the Windows Store there is no way to throubleshoot, windows makes sure that looking on the internet for a solution its imposible, i bet there are houndreds of errors regarding the Windows Store. 
+So, my script is simple: It clears and reinstall Windows Store so Any error can be fixable.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+----
+## Option 1: The easy way.
+- [x] Step 1: [Download this Script](bit.ly/Fix_Windows_Store)
+- [x] Step 2: Un rar it
+- [x] Step 3: Look for the file inside the *"Windows Store Reinstaller"* folder.
+- [x] Step 4: Right click it and **"Execute with Powershell"**
 
-```markdown
-Syntax highlighted code block
+![WINDOWS STORE FIXER](https://i.imgur.com/Ggw4q5e.gif)
 
-# Header 1
-## Header 2
-### Header 3
+----
+## **Option 2: The manual way.**
+- [x] Step 1: Open Windows Menu
+- [x] Step 2: Start writing *"Powershell"*
+- [x] Step 3: Open "Powershell" with ***Administrator priviligies***.
+- [x] Step 4: Paste the next lines and hit "Enter" one line at a time.
 
-- Bulleted
-- List
+```Get-AppXPackage *WindowsStore* -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}```
+*Hit enter.*
+```Start-Process WSReset.exe```
+*Hit enter.*
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AlexRabbit/Windows-Store-Fixer/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![Windows 10 Store Reinstall](https://i.imgur.com/4sdQ6Rd.gif)
