@@ -10,7 +10,8 @@ So, my script is simple: It clears and reinstall Windows Store so Any error can 
 
 ----
 ## Option 1: The easy way.
-- [x] Step 1: [Download this Script](bit.ly/Fix_Windows_Store)
+##Doesnt seem to work for some. Use option 2, please, while i try to fix it.
+- [x] Step 1: [Download this Script](https://bit.ly/Fix_Windows_Store)
 - [x] Step 2: Un rar it
 - [x] Step 3: Look for the file inside the *"Windows Store Reinstaller"* folder.
 - [x] Step 4: Right click it and **"Execute with Powershell"**
