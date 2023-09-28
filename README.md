@@ -25,9 +25,16 @@ So, my script is simple: It clears and reinstall Windows Store so Any error can 
 - [x] Step 3: Open "Powershell" with ***Administrator priviligies***.
 - [x] Step 4: Paste the next lines and hit "Enter" one line at a time.
 
-```Get-AppXPackage *WindowsStore* -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}```
+
+`Get-AppXPackage *WindowsStore* -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}`
+
+
 *Hit enter.*
-```Start-Process WSReset.exe```
+
+
+`Start-Process WSReset.exe`
+
+
 *Hit enter.*
 
 ![Windows 10 Store Reinstall](https://i.imgur.com/4sdQ6Rd.gif)
