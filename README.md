@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows 10 | 11">
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows Ready">
   <img src="https://img.shields.io/badge/Fix-ONE%20CLICK-00C853?style=for-the-badge" alt="One Click">
   <img src="https://img.shields.io/badge/PowerShell-Admin-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell">
 </p>
@@ -20,7 +20,6 @@
 
 ---
 
-## 📺 See It In Action
 
 *👆 Double-click the "Fix-Windows-Store.bat" file → accept it to ran it as admin*
 
@@ -125,4 +124,5 @@ So it’s the same fix that works when you run the famous two-line fix manually 
 🛒 **Windows Store Fixer** · One-Click Edition · 
 
 </div>
+
 
