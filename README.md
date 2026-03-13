@@ -1,3 +1,5 @@
+If this helped you, consider starring the repo ⭐
+
 <p align="center">
   <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows Ready">
   <img src="https://img.shields.io/badge/Fix-ONE%20CLICK-00C853?style=for-the-badge" alt="One Click">
@@ -124,5 +126,6 @@ So it’s the same fix that works when you run the famous two-line fix manually 
 🛒 **Windows Store Fixer** · One-Click Edition · 
 
 </div>
+
 
 
