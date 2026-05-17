@@ -22,7 +22,7 @@ If this helped you, consider starring the repo ⭐
 
 ---
 
-
+[DOWNLOAD](https://github.com/AlexRabbit/Windows-Store-Fixer/archive/refs/heads/master.zip)
 *👆 Double-click the "Fix-Windows-Store.bat" file → accept it to ran it as admin*
 
 ---
